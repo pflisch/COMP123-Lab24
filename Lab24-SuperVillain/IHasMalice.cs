@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace Lab24
 {
-
-    public interface IHasKarma
+    interface IHasMalice
     {
         // Public properties
-        int Karma { get; set; }
+        int Malice { get; set; }
     }
 }

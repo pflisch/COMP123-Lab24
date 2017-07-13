@@ -78,7 +78,7 @@ namespace Lab24
         {
             string outputString = "";
             outputString += "===========================================================\n";
-            outputString += "Super Human Name: " + this.Name + "\n";
+            outputString += "Super Villain Name: " + this.Name + "\n";
             outputString += "===========================================================\n";
             foreach (Power power in this.Powers)
             {

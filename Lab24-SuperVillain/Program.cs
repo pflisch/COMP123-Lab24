@@ -10,10 +10,10 @@ namespace Lab24
     {
         static void Main(string[] args)
         {
-            SuperHero superHero = new SuperHero("Magneto", 20);
-            superHero.AddPower("Turning Invisible", 50);
-            superHero.AddPower("Wall Climbing", 40);
-            Console.WriteLine(superHero.ToString());
+            SuperVillain superVillain = new SuperHero("Magneto", 20);
+            superVillain.AddPower("Invisibility", 50);
+            superVillain.AddPower("Nuclear Gun", 40);
+            Console.WriteLine(superVillain.ToString());
 
 
         }

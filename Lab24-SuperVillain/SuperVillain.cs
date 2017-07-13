@@ -9,22 +9,22 @@ namespace Lab24
     /// <summary>
     /// This is the SuperHero class
     /// </summary>
-    public class SuperHero : SuperHuman, IHasKarma
+    public class SuperVillain : SuperHuman, IHasMalice
     {
         // PRIVATE INSTANCE VARIABLES
-        private int _karma;
+        private int _malice;
 
         // PUBLIC PROPERTIES
-        public int Karma
+        public int Malice
         {
             get
             {
-                return this._karma;
+                return this._malice;
             }
 
             set
             {
-                this._karma = value;
+                this._malice = value;
             }
         }
 
@@ -32,14 +32,14 @@ namespace Lab24
 
         /// <summary>
         /// This is the main constructor for the SuperHero class
-        /// It takes two arguments - name (string) - karma (int)
+        /// It takes two arguments - name (string) - malice (int)
         /// </summary>
         /// <param name="name"></param>
-        /// <param name="karma"></param>
-        public SuperHero(string name, int karma)
+        /// <param name="malice"></param>
+        public SuperVillain(string name, int malice)
             : base(name)
         {
-            this.Karma = karma;
+            this.Malice = malice;
         }
 
         // PRIVATE METHODS
