@@ -83,7 +83,7 @@ namespace Lab24
             foreach (Power power in this.Powers)
             {
             
-                outputString += "Power: " + power.Name + " ******* Rank: " + power.Rank + "\n";
+                outputString += "Power: " + power.Name + " ### Rank: " + power.Rank + "\n";
             }
             outputString += "===========================================================\n";
             return outputString;
